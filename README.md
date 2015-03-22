@@ -17,3 +17,12 @@ for your USB-Storage device and set
 NOTE: vendor-id and product-id have to be in decimal notation, convert them before insert in devvice_filter.xml
 i.e: idVendor=14cd, idProduct=8123 -> idVendor=5325, idProduct=33059
 
+# Build
+
+Trigger this command to initialize the gradle build system:
+
+    ./gradlew wrapper
+    
+To build the project type:
+
+    ./gradlew build
